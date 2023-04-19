@@ -49,4 +49,7 @@ const Home = async ({ searchParams }: HomeProps) => {
   )
 }
 
+// Bug with Error: `Dynamic server usage: searchParams.userId`
+export const dynamic = 'force-dynamic'
+
 export default Home;
