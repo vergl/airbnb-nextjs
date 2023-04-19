@@ -8,7 +8,8 @@ import { FaSkiing } from "react-icons/fa";
 import { IoDiamond } from "react-icons/io5";
 import { BsSnow } from "react-icons/bs";
 import CategoryBox from "./CategoryBox";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation"; 
+
 
 export const categories = [
     {
