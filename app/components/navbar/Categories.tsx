@@ -10,7 +10,6 @@ import { BsSnow } from "react-icons/bs";
 import CategoryBox from "./CategoryBox";
 import { usePathname, useSearchParams } from "next/navigation"; 
 
-
 export const categories = [
     {
         label: "Beach",
